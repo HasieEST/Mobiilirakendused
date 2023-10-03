@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import {colors} from '../../../utils/colors'
 
 export const styles = StyleSheet.create({
     image: {
@@ -14,7 +15,7 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     innerTitle: {
-        color: '#FCA34D',
+        color: colors.orange,
         textDecorationLine: 'underline'
     },
     container: {
@@ -28,7 +29,7 @@ export const styles = StyleSheet.create({
     footerText: {
         font: 16,
         fontWeight: 'bold',
-        color: '#4F63AC',
+        color: colors.blue,
         textAlign:'center',
         marginTop: 30
     }
