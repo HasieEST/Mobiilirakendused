@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     container:{
         backgroundColor: colors.darkGrey,
         borderRadius: 14,
-        width: '45%',
+        width: '40%',
         alignSelf: 'center',
         justifyContent:'center',
         alignItems: 'center',
@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
         marginBottom: 50
     },
     image: {
-        width: 30,
-        height: 30
+        width: 29,
+        height: 29
     }
 })
