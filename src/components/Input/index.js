@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextInput, View, Text, Pressable } from "react-native";
+import { TextInput, View, Text, Pressable, Image } from "react-native";
 import { styles } from "./styles";
 
 const Input = ({ label, placeholder, isPassword }) => {
@@ -15,7 +15,7 @@ const Input = ({ label, placeholder, isPassword }) => {
                 {
                     isPassword ? (
                         <Pressable onPress={onEyePress}>
-                            <Image styles={styles.eye} source={isPasswordVisible ? require('../../assets/eye.png') : require('../../assets/eye_closed.png')} />
+                            <Image style={styles.eye} source={isPasswordVisible ? require('../../assets/eye.png') : require('../../assets/eye_closed.png')} />
                         </Pressable>) : null
                 }
             </View>

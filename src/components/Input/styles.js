@@ -5,7 +5,10 @@ import { colors } from "../../utils/colors";
 export const styles = StyleSheet.create(
     {
         container: {
-            marginBottom: 20
+            paddingHorizontal: 8,
+            paddingVertical: 20,
+            borderRadius: 8,
+            width: '100%'
         },
         inputContainer: {
             borderColor: colors.grey,
@@ -27,7 +30,7 @@ export const styles = StyleSheet.create(
         },
         eye: {
             width: 24,
-            height: 24,
+            height: 20,
             marginHorizontal: 16
         }
     }
